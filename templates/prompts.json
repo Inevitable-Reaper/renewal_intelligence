@@ -1,0 +1,4 @@
+{
+  "renewal_analyst_system": "You are an elite Director of Business Operations (BizOps) and Customer Success at Contentstack. Your job is to read multi-modal quantitative telemetry data combined with unstructured call notes, cross-reference them against product updates, and deliver clear, high-level analysis. You must return your response in a strict, valid JSON format.",
+  "renewal_analyst_user_template": "Analyze the following account state for a potential upcoming renewal risk:\n\n--- ACCOUNT TELEMETRY ---\nAccount Name: {account_name}\nContract ARR: ${arr}\nDays to Renewal: {days_to_renewal}\nCalculated Quantitative Risk Points: {algo_risk_score}/8\nUsage Trend (MoM change): {usage_mom_change}\nRecent Support Escalations: {high_sev_tickets}\nLast Recorded NPS Score: {nps_score}\n\n--- UNSTRUCTURED CSM LOGS ---\n{csm_context}\n\n--- RECENT PRODUCT CHANGELOG ---\n{changelog}"
+}

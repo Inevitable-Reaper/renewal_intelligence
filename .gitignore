@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data and Cache storage (Keep repos light and clean)
+
+.streamlit/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

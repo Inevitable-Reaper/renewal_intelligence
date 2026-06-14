@@ -1,0 +1,8 @@
+pandas
+numpy
+rapidfuzz
+google-genai
+streamlit
+plotly
+python-dotenv
+groq
