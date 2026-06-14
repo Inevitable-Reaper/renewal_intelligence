@@ -1,10 +1,14 @@
-# 🔮 Contentstack Renewal Intelligence Engine (BizOps AI Pipeline)
+#  Contentstack Renewal Intelligence Engine (BizOps AI Pipeline)
+
+ **Live Demo**: [Open Streamlit App](https://renewalintelligence-btkjiklzu6gbgajnwg2vby.streamlit.app/)
+
+---
 
 An enterprise-grade, modular BizOps AI pipeline that ingests, normalizes, and analyzes multi-modal account telemetry and customer sentiment. The system separates data processing, deterministic risk scoring, and LLM reasoning to identify at-risk renewals within a rolling 90-day window, outputting structured risk profiles and actionable CSM playbooks.
 
 ---
 
-## 🏗️ Architectural Overview
+##  Architectural Overview
 
 The pipeline transforms fragmented raw data into proactive business insights through four decoupled layers:
 
@@ -43,7 +47,7 @@ The pipeline transforms fragmented raw data into proactive business insights thr
 
 ---
 
-## 🛠️ Data Challenges Solved
+##  Data Challenges Solved
 
 * **Fuzzy Naming Variations**
   Resolves mismatched names (e.g., *Acme Inc vs Acme Corp*) using token-based fuzzy matching (≥75% threshold)
@@ -59,7 +63,7 @@ The pipeline transforms fragmented raw data into proactive business insights thr
 
 ---
 
-## ⚖️ Key Tradeoffs
+##  Key Tradeoffs
 
 ### Deterministic vs LLM-Based Scoring
 
@@ -78,7 +82,7 @@ The pipeline transforms fragmented raw data into proactive business insights thr
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * **RAG for Notes**: Add embeddings + vector DB (ChromaDB / LanceDB)
 * **Predictive Analytics**: Implement ARIMA / LSTM for churn forecasting
@@ -86,7 +90,7 @@ The pipeline transforms fragmented raw data into proactive business insights thr
 
 ---
 
-## 🚀 Production Roadmap
+##  Production Roadmap
 
 * Replace CSVs with pipelines (dbt / Airflow + Snowflake)
 * Add async processing (Celery + Redis)
@@ -100,7 +104,7 @@ The pipeline transforms fragmented raw data into proactive business insights thr
 ### 1. Create Environment
 
 ```bash
-conda create -n renewal python=3.13 -y
+conda create -n renewal python=3.11 -y
 conda activate renewal
 ```
 
