@@ -100,7 +100,7 @@ The pipeline transforms fragmented raw data into proactive business insights thr
 ### 1. Create Environment
 
 ```bash
-conda create -n renewal python=3.11 -y
+conda create -n renewal python=3.13 -y
 conda activate renewal
 ```
 
